@@ -33,14 +33,7 @@
                 var respuesta = document.getElementById('resultado');
                 var cantidad = valor.value.length;
                 document.getElementById('resultado').innerHTML = cantidad + 'caracteres que quedan' + (total - cantidad);
-                if (cantidad > total)
-                {
-                    respuesta.style.color = "red";
-
-                }
-                else{
-                    respuesta.style.color = "black";
-                }
+                
             });
         }
 
